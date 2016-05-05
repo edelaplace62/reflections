@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 
 The .git folder is created.
 Else git wouldn't know where is the root folder of the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory is a physical folder holding files.
+The stating area is a list of files from that directory. It is only a list and this list does not necessary references all the files of the working directory;
+The repository holds the history of commits, the succession of snapshots of the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Before doing the commit you can make sure that all the modifications of the files in the staging are targeting the same objective = logical change (ie add a feature, fix a bug, etc..).
