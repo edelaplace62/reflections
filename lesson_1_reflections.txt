@@ -1,0 +1,33 @@
+Knowing that the old version of the file was working and the nez one not, the bug had to come from 
+a difference between the two files.
+Some of these differences are intended (they were there to introduce the functional change).
+The bug had to come fomm an unwanted difference.
+Using a program to spot the differences between the files allows me to concentrate my attention on these changes 
+and then determine if they are intended or not.
+
+How could having easy access to the entire history of a file make you a more efficient 
+programmer in the long term?
+If something breaks down I can revert to the version of the file that I know was working.
+It can help me analyse how I work (what kind of iterations I go through to implement a new function)
+It can help me spot frequent mistakes so that I can prevent doing them.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+Starting from the criteria that the changes brought between each commit shall have a clear and logical 
+definition, and that the amount of chnages between two commits must not be too big, clearly an automatic commit
+cannoy fulfill these criteria. The automatic commit does not know what kind of changes you made and if they were sharing
+a common goal. You might end up a with a commit that groups completely unrelated changes. You may also end up with a commit that is made
+in the middle of a big change, when the file is not in a consistent state (changes half done).
+An automatic commit probably won't let you enter the reason for the commit (else it's no longer really automatic), which means that 
+it will be harder to make sense of the changes between two commits later on.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+Git is targeted at development wherer you often work with multiple files that need to remain consistent. Changing one file 
+often requires to change one or more other files in order for the project to compile.
+Google Docs works with individual files, that do not have any relation or dependence towards othe files. This is why multiple file commit is not necessary.
+
+How might using version control make you more confident to make changes that could break something?
+Because I know that I can easily restore a previous working situation, I will be less reluctant to make complex changes.
+I can break complex changes in steps. If my chnages break something, the analysis of where the problem comes from will be made easier because I will be able to identify at which stage of my changes the problem appeared.
+Also I will be able to locate with a tool like diff, the lines that have change and this will help me find faste where the problem comes from.
