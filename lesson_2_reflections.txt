@@ -10,3 +10,10 @@ The repository holds the history of commits, the succession of snapshots of the 
 
 How can you use the staging area to make sure you have one commit per logical change?
 Before doing the commit you can make sure that all the modifications of the files in the staging are targeting the same objective = logical change (ie add a feature, fix a bug, etc..).
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Whenever I need to manage concurrently for some time, two or more versions with a different functional scope. For instance I have a version going for production (on which I will only fix critical bugs) and another one on which I continue adding  features. 
+Branches help because it allows to make fixes or add features to a branch, without being disturbed by the changes made on the other branch.
+
+How do the diagrams help you visualize the branch structure?
+The diagram makes apparent the different branches and where they split or merge.
