@@ -17,3 +17,12 @@ Branches help because it allows to make fixes or add features to a branch, witho
 
 How do the diagrams help you visualize the branch structure?
 The diagram makes apparent the different branches and where they split or merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+automatic merge handles all the simple cases (independant changes) that can be solved easily and then saves time compared to manually merging.
+Automatic merging allows you to concentrate on the conflicts resolution, that require attention. 
+Mergin manually can easily led to errors if you do not pay close attention. It is safer to let git manage automatically.
+Automatic merging lets you know about conflicts, that otherwise you may not be aware of.
+Cons:
+Does not handle the merge when there are conflicts.
