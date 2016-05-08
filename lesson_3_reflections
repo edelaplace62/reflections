@@ -20,3 +20,6 @@ It makes it easier to reconcile the changes when I next synchronize with the rem
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 There would probably a reference area. Whenever someones want to make a change he first needs to inform all the collaborators that he is working on the reference. When he is done everyones needs to updte their work area from the reference area.
 As an alternative there could be someone who is in charge of merging the changes of the collaborators in the reference area. Avery time I want to exchange the reference I would need to send the modified files and explain what I have modified.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Whenever I need to have different versions of the same project available at the same time and for a certain duration.I avn for instance have a matser branche with the production code and a branch with a new feature that does not get merged in the master until it's fully debugged and tested.
