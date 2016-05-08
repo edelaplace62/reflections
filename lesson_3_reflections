@@ -6,4 +6,9 @@ When i need to backup my files
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Having git maintaining my repository automatically up to date with the remote would mean :
 - that I would inherit any change made to the remote, while it may break what I am doing.
-- that I would get a signifcant network overhead to get all changes in real time while there is no need for it. 
+- that I would get a signifcant network overhead to get all changes in real time while there is no need for it.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork is to copy a github repository in my own github space, while keeping a link to tehcopied repository. Is used when  I need to derive a projetc from an existing project on github, allows to work on the new project without pushing my chnages to teh original project.
+clone is to copy a repository (from a local repository or from a github repository). Is used whenever I want to woek locally on a remote project, or start from an existing local prohect without any intention to push baxk my changes to the original project.
+branch is to create a new line of colmmits within a depository. Is used when i need to maintain several versions of the sa e project for some time. 
