@@ -16,3 +16,7 @@ branch is to create a new line of colmmits within a depository. Is used when i n
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It makes it easier to keep track of the changes brought since the last sync
 It makes it easier to reconcile the changes when I next synchronize with the remote, since only the changes that were made on the remote and locally since the last sync need to be taken into account.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+There would probably a reference area. Whenever someones want to make a change he first needs to inform all the collaborators that he is working on the reference. When he is done everyones needs to updte their work area from the reference area.
+As an alternative there could be someone who is in charge of merging the changes of the collaborators in the reference area. Avery time I want to exchange the reference I would need to send the modified files and explain what I have modified.
